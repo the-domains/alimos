@@ -1,14 +1,26 @@
-layout_spectrum: 0.2956989
 color:
   saturation: 0.546595
-  lightness: 0.5734767
   brandStrength: 0.4784946
+  rhythmicContrast: 0.6935484
   brandColors:
     - '#EAEBE7'
     - '#201E16'
     - '#ABBD1F'
     - '#767666'
     - '#88280F'
-  rhythmicContrast: 0.6935484
+  lightness: 0.5734767
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.2956989
 typography_spectrum: 0.9516129
 name: Alimos
