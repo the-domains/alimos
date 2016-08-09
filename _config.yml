@@ -4,23 +4,23 @@ collections:
       number: 15
       paginate: true
       navigable: true
+    permalink:
+      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-    permalink:
-      path: '/:title/'
 color:
   saturation: 0.546595
-  brandStrength: 0.4784946
-  rhythmicContrast: 0.6935484
-  brandColors:
-    - '#EAEBE7'
-    - '#201E16'
-    - '#ABBD1F'
-    - '#767666'
-    - '#88280F'
+  brandStrength: 0.4605735
   lightness: 0.5734767
-typography_spectrum: 0.9516129
-layout_spectrum: 0.5340502
+  brandColors:
+    - '#C9E056'
+    - '#000000'
+    - '#F18B42'
+    - '#737666'
+    - '#04B435'
+  rhythmicContrast: 0.6935484
+typography_spectrum: 0.59319
+layout_spectrum: 0.2365591
 name: Alimos
